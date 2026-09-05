@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -std=c11 -Iinclude
-SRC := $(wildcard src/*.c)
+SRC := src/main.c
 TARGET=shellforge
 
 $(TARGET): $(SRC)
